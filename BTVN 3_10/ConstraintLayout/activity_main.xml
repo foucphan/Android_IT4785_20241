@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- TextView để hiển thị kết quả -->
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="0dp"
+        android:layout_height="210dp"
+        android:layout_margin="4dp"
+        android:background="#E0E0E0"
+        android:gravity="end"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="150sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Đường guideline để chia khoảng cách -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="219dp" />
+
+    <!-- Các hàng còn lại của các nút -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:columnCount="4"
+        android:rowCount="6"
+        android:layout_gravity="fill"
+        app:layout_constraintTop_toBottomOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Nút số và các phép tính khác -->
+        <Button android:text="CE" style="@style/CalcButton" />
+        <Button android:text="C" style="@style/CalcButton" />
+        <Button android:text="BS" style="@style/CalcButton" />
+        <Button android:text="/" style="@style/CalcButton" />
+
+        <Button android:text="7" style="@style/CalcButton" />
+        <Button android:text="8" style="@style/CalcButton" />
+        <Button android:text="9" style="@style/CalcButton" />
+        <Button android:text="x" style="@style/CalcButton" />
+
+        <Button android:text="4" style="@style/CalcButton" />
+        <Button android:text="5" style="@style/CalcButton" />
+        <Button android:text="6" style="@style/CalcButton" />
+        <Button android:text="-" style="@style/CalcButton" />
+
+        <Button android:text="1" style="@style/CalcButton" />
+        <Button android:text="2" style="@style/CalcButton" />
+        <Button android:text="3" style="@style/CalcButton" />
+        <Button android:text="+" style="@style/CalcButton" />
+
+        <Button android:text="+/-" style="@style/CalcButton" />
+        <Button android:text="0" style="@style/CalcButton" />
+        <Button android:text="." style="@style/CalcButton" />
+        <Button android:text="=" style="@style/CalcButton" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
