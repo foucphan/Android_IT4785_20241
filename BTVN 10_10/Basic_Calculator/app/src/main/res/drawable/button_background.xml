@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--   Nền của Button   -->
+    <solid android:color="#E0E0E0"/>
+    <!--   Màu nền của button, bạn có thể thay đổi màu   -->
+    <!--   Đường viền của Button   -->
+    <stroke android:width="2dp" android:color="#000000"/>
+    <!--   Độ dày và màu sắc của viền   -->
+    <!--   Bo tròn góc (góc vuông khi giá trị là 0)   -->
+    <corners android:radius="0dp"/>
+    <!--   Đặt radius = 0dp để tạo góc vuông   -->
+    <!--   Padding bên trong Button   -->
+    <padding android:left="8dp" android:right="8dp" android:top="8dp" android:bottom="8dp"/>
+</shape>

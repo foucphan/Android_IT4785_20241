@@ -1,0 +1,15 @@
+<resources>
+    <!--   Style chung cho các nút bấm của máy tính   -->
+    <style name="CalcButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <!--   <item name="android:background">?attr/selectableItemBackground</item>   -->
+    </style>
+</resources>
