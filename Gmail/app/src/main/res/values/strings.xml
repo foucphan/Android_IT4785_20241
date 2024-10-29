@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Gmail</string>
+    //Facebook
+
+    <string name="Facebook">Facebook</string>
+    <string name="fb_detail">
+        Your password account has been changed\nYour pass is Pcan5803\nPlease confirm your password
+    </string>
+    <string name="Gmail">Gmail</string>
+    <string name="gmail_detail">
+        Gmail has been deleted, you can create a new account
+    </string>
+    <string name="Instagram">Instagram</string>
+    <string name="insta_detail">
+        DinhCan start follow you\nPlease check your account
+    </string>
+    <string name="Twitter">Twitter</string>
+    <string name="twitter_detail">
+        Rodrigo has won the Ballond\'Or and in doing so, becomes the first Manchester City player to claim the coveted honour.
+    </string>
+    <string name="Youtube">Youtube</string>
+    <string name="youtube_detail">
+        Follow CS50 to earn more video about Python/n
+        Subscribe for more information
+    </string>
+</resources>
