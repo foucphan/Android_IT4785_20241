@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">StudentMan</string>
+    <string name="add_new">Add new</string>
+    <string name="nh_p_t_n_sinh_vi_n">Nhập tên sinh viên</string>
+    <string name="nh_p_m_sinh_vi_n">Nhập mã sinh viên</string>
+    <string name="th_m">Thêm</string>
+    <string name="b_n_c_ch_c_ch_n_mu_n_x_a_sinh_vi_n_n_y">Bạn có chắc chắn muốn xóa sinh viên này?</string>
+    <string name="x_a">Xóa</string>
+    <string name="ch_nh_s_a_t_n_sinh_vi_n">Chỉnh sửa tên sinh viên</string>
+    <string name="ch_nh_s_a_m_sinh_vi_n">Chỉnh sửa mã sinh viên</string>
+    <string name="c_p_nh_t">Cập nhật</string>
+    <string name="studentname">StudentName</string>
+    <string name="studentid">StudentId</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/edt_student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/nh_p_t_n_sinh_vi_n"
+        android:inputType="textPersonName"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/edt_student_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/nh_p_m_sinh_vi_n"
+        android:inputType="text"
+        android:padding="8dp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_confirm_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/th_m"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
